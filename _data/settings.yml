@@ -4,9 +4,9 @@
 
 title: BANNO Studio
 logo:
-author: Angelo Bannister
+author: Angelo Banno
 description: this is meta description
-email: angelobannister@gmail.com
+email: angelobanno@gmail.com
 phone: +45 00 00 00 00
 address: Nr, Vej, Aarhus, DK
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
@@ -43,13 +43,13 @@ social:
   - { icon: "ti-facebook", link: "#" }
   - { icon: "ti-instagram", link: "#" }
   - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-youtube", link: "#" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: About text...
+blurb: BANNO Studio is an enigmatic umbrella organization, <br> for creative creative endevours and artistic expression!
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -88,10 +88,10 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: Artistic Creation, color: "#fdb157", value: "90%" }
+  - { name: Experience Design, color: "#9473e6", value: "80%" }
+  - { name: Sound Engineering, color: "#bdecf6", value: "80%" }
+  - { name: Project Management, color: "#ffbcaa", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
@@ -281,19 +281,19 @@ client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/client-logo-7.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/client-logo-8.jpg"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: "assets/images/clients-logo/client-logo-9.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: "assets/images/clients-logo/client-logo-10.png"
     url: "#"
 
 #-------------------------------

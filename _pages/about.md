@@ -1,17 +1,14 @@
 ---
 layout: about
-title: About Me
-author: Johnathan Smith
+title: About
+author: Angelo Banno
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+‘’ I love exploring art, what is possible with sound and how we use these components when designing the environment around us ‘’
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+<b>Keywords</b> Cultural entrepreneurship. Cross-artistic projects, learning environments, educational development and teaching, management, project development, facilitation, and evaluation, networking and partnerships, conceptualization, and curation, business plans and models, financing, and fundraising.
 
 Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi

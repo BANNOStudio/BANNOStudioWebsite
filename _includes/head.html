@@ -4,16 +4,17 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{%if page.description%}{{page.description}}{%else%}{{site.data.settings.description}}{%endif%}">
-  
+  <meta name="description"
+    content="{%if page.description%}{{page.description}}{%else%}{{site.data.settings.description}}{%endif%}">
+
   <!-- theme meta -->
   <meta name="theme-name" content="kross-jekyll" />
 
-    
+
   {% if site.author %}
   <meta name="author" content="{{ . }}">
   {% endif %}
-  
+
   <!-- ** Plugins Needed for the Project ** -->
   {% for css in site.data.plugins.css %}
   <link rel="stylesheet" href="{{ css | relative_url }}">
@@ -28,7 +29,7 @@
 
   <!-- google analytics -->
   {% if site.data.settings.google-analytics %}
-    {% include google-analytics.html %}
+  {% include google-analytics.html %}
   {% endif %}
 
 </head>
