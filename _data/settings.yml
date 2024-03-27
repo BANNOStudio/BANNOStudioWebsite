@@ -12,7 +12,7 @@ address: Nr, Vej, Aarhus, DK
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-  - { name: About, link: "/about" }
+  - { name: About, link: "/BANNOStudioWebsite/about" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Projects, link: "/projects" }
   - { name: Contact, link: "/contact" }
