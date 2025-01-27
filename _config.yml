@@ -1,5 +1,5 @@
-baseurl: "/BANNOStudioWebsite/" # the subpath of your site, e.g. /blog
-url: "https://bannostudio.github.io/BANNOStudioWebsite/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/BANNOStudioWebsite" # the subpath of your site, e.g. /blog
+url: "https://bannostudio.github.io/BANNOStudioWebsite" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
