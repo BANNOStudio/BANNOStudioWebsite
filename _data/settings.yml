@@ -12,10 +12,10 @@ address: Nr, Vej, Aarhus, DK
 copyright: Copyright &copy; 2024 - Present, BANNO Studio
 
 menu:
-  - { name: About, link: "/about" }
-  - { name: Portfolio, link: "/portfolio" }
-  - { name: Projects, link: "/projects" }
-  - { name: Contact, link: "/contact" }
+  - { name: About, link: "{{ site.baseurl }}/about" }
+  - { name: Portfolio, link: "{{ site.baseurl }}/portfolio" }
+  - { name: Projects, link: "{{ site.baseurl }}/projects" }
+  - { name: Contact, link: "{{ site.baseurl }}/contact" }
 
 #-------------------------------
 # Google Analytics Section
