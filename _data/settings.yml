@@ -3,13 +3,13 @@
 # General Site Settings
 
 title: BANNO Studio
-logo:
+logo: "assets/images/logo-hero.png"
 author: Angelo Banno
 description: this is meta description
 email: angelobanno@gmail.com
 phone: +45 00 00 00 00
 address: Nr, Vej, Aarhus, DK
-copyright: Copyright &copy; 2020 Designed by BANNO Studio
+copyright: Copyright &copy; 2024 - Present, BANNO Studio
 
 menu:
   - { name: About, link: "/about" }
