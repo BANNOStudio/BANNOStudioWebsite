@@ -14,24 +14,21 @@
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    flex-direction: column;
+    height: 100vh;
   }
 
   .list-unstyled {
     display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    li {
-      margin-right: 15px;
-    }
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
 
   .hero-logo {
-    text-align: center;
+    margin: 0 auto;
   }
 
   .future-content {
