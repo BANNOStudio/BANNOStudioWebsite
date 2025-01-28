@@ -34,32 +34,23 @@
   /* ########################################### hero parallax ############################################## */
   window.onload = function () {
     var parallaxBox = document.getElementById("parallax");
-    var heroLogo = document.getElementById("hero-logo"); // Assuming the hero logo has this ID
+    var heroLogo = document.querySelector(".hero-logo img"); // Ensure this selector matches your HTML
 
     parallaxBox.onmousemove = function (event) {
       event = event || window.event;
       var x = event.clientX - parallaxBox.offsetLeft,
         y = event.clientY - parallaxBox.offsetTop;
 
-      mouseParallax(heroLogo, heroLogo.offsetLeft, heroLogo.offsetTop, x, y, 30);
+      mouseParallax(heroLogo, x, y, 30);
     };
   };
 
-  function mouseParallax(id, left, top, mouseX, mouseY, speed) {
-    var obj = document.getElementById(id);
-    var parentObj = obj.parentNode,
-      containerWidth = parseInt(parentObj.offsetWidth),
-      containerHeight = parseInt(parentObj.offsetHeight);
-    obj.style.left =
-      left -
-      ((mouseX - (parseInt(obj.offsetWidth) / 2 + left)) / containerWidth) *
-        speed +
-      "px";
-    obj.style.top =
-      top -
-      ((mouseY - (parseInt(obj.offsetHeight) / 2 + top)) / containerHeight) *
-        speed +
-      "px";
+  function mouseParallax(element, mouseX, mouseY, speed) {
+    var parentWidth = element.parentElement.offsetWidth;
+    var parentHeight = element.parentElement.offsetHeight;
+    var x = (mouseX - parentWidth / 2) / parentWidth * speed;
+    var y = (mouseY - parentHeight / 2) / parentHeight * speed;
+    element.style.transform = `translate(${x}px, ${y}px)`;
   }
   /* ########################################### /hero parallax ############################################## */
 
