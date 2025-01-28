@@ -40,6 +40,7 @@
       event = event || window.event;
       var x = event.clientX - parallaxBox.offsetLeft,
         y = event.clientY - parallaxBox.offsetTop;
+        
       // Adjust the speed value here
       mouseParallax(heroLogo, x, y, 10); // Increase or decrease the number to change the effect
     };
