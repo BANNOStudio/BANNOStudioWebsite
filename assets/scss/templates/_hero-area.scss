@@ -14,17 +14,16 @@
 
   .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
   }
 
   .list-unstyled {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
+    align-items: flex-start;
+    margin: 0;
   }
 
   .hero-logo {

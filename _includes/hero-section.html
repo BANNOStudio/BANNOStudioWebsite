@@ -2,15 +2,15 @@
 <section class="hero-area bg-primary" id="parallax">
   <div class="container d-flex justify-content-between align-items-center">
     <!-- social icon -->
-    <ul class="list-unstyled d-flex">
+    <ul class="list-unstyled">
       {% for social in site.data.settings.social %}
-      <li class="mr-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
       {% endfor %}
     </ul>
     <!-- /social icon -->
 
     <!-- hero logo -->
-    <div class="hero-logo">
+    <div class="hero-logo mx-auto">
       <img src="{{ site.data.settings.hero.hero-logo }}" alt="logo-hero" style="height: auto; width: 15%;">
     </div>
     <!-- /hero logo -->
