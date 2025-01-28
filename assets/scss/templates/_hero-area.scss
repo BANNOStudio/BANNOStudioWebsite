@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    padding: 20px 0;
   }
 
   .list-unstyled {
@@ -27,11 +27,14 @@
   }
 
   .hero-logo {
-    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
   }
 
   .future-content {
-    // Style for future content
+    flex-grow: 1;
   }
 }
 
