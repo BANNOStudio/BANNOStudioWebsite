@@ -42,7 +42,7 @@
         y = event.clientY - parallaxBox.offsetTop;
 
       // Adjust the speed value here
-      mouseParallax(heroLogo, x, y, 2); // Increase or decrease the number to change the effect
+      mouseParallax(heroLogo, x, y, 1); // Increase or decrease the number to change the effect
     };
   };
 
