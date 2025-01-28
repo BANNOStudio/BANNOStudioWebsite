@@ -1,22 +1,29 @@
 <!-- hero area -->
 <section class="hero-area bg-primary" id="parallax">
-  <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    {% for social in site.data.settings.social %}
-    <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
-    {% endfor %}
-  </ul>
-  <!-- /social icon (hero logo)-->
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-lg-11 mx-auto">
-        <img src="{{ site.data.settings.hero.hero-logo }}" alt="logo-hero" style="height: auto; width: 15%;">
-        <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
-      </div>
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- social icon -->
+    <ul class="list-unstyled d-flex">
+      {% for social in site.data.settings.social %}
+      <li class="mr-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
+      {% endfor %}
+    </ul>
+    <!-- /social icon -->
+
+    <!-- hero logo -->
+    <div class="hero-logo">
+      <img src="{{ site.data.settings.hero.hero-logo }}" alt="logo-hero" style="height: auto; width: 15%;">
     </div>
+    <!-- /hero logo -->
+
+    <!-- future content placeholder -->
+    <div class="future-content">
+      <!-- Add future content here -->
+    </div>
+    <!-- /future content placeholder -->
   </div>
+  <!-- background shapes -->
   <div class="layer-bg w-100">
-    <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/images/illustrations/leaf- bg.png" alt="bg-shape">
+    <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/images/illustrations/leaf-bg.png" alt="bg-shape">
   </div>
   <div class="layer" id="l2">
     <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="bg-shape">
@@ -42,6 +49,5 @@
   <div class="layer" id="l9">
     <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-2.png" alt="bg-shape">
   </div>
-
 </section>
 <!-- /hero area -->

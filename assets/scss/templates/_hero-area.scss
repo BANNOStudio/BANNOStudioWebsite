@@ -11,6 +11,32 @@
     position: relative;
     z-index: 2;
   }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .list-unstyled {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-right: 15px;
+    }
+  }
+
+  .hero-logo {
+    text-align: center;
+  }
+
+  .future-content {
+    // Style for future content
+  }
 }
 
 .layer {
