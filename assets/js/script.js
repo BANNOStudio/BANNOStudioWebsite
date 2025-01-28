@@ -153,4 +153,16 @@
       myShuffle.filter(input.value);
     }
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const blurbButton = document.querySelector('a[href="#portfolio-section"]');
+    if (blurbButton) {
+        blurbButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector("#portfolio-section").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    }
+  });
 })(jQuery);
