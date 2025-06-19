@@ -189,9 +189,9 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "BANNO", type: "banno" }
+  - { title: "Colabs", type: "colabs" }
+  - { title: "Other", type: "other" }
 
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
