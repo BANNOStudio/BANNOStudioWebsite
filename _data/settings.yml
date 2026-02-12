@@ -86,12 +86,7 @@ team:
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
-skills:
-  - { name: Artistic Creation, color: "#fdb157", value: "90%" }
-  - { name: Experience Design, color: "#9473e6", value: "80%" }
-  - { name: Sound Engineering, color: "#bdecf6", value: "80%" }
-  - { name: Project Management, color: "#ffbcaa", value: "80%" }
+
 
 #-------------------------------
 # Exprerience Section
