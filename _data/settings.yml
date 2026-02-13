@@ -155,7 +155,7 @@ services:
       active: ,# Add true to select section
     }
   - {
-      name: Project Design,
+      name: Creative Project Design,
       icon: ti-vector,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: true, # Add true to select section
@@ -163,7 +163,7 @@ services:
   - {
       name: Technical Production,
       icon: ti-panel,
-      description: "<b>Professional Technician.<b> With various creative projects, a big part, is managing the technical aspects. With this comes a knowlage of technical setups and executing these",
+      description: "<b>Professional Technician.</b> With various creative projects, a big part, is managing the technical aspects. With this comes a knowlage of technical setups and executing these",
       active: ,# Add true to select section
     }
 
