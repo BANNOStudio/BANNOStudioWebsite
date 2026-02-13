@@ -155,7 +155,7 @@ services:
       active: ,# Add true to select section
     }
   - {
-      name: Creative Project Design,
+      name: Creative Project Management,
       icon: ti-vector,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: true, # Add true to select section
@@ -163,7 +163,7 @@ services:
   - {
       name: Technical Production,
       icon: ti-panel,
-      description: "<b>Professional Technician.</b> With various creative projects, a big part, is managing the technical aspects. With this comes a knowlage of technical setups and executing these",
+      description: "<strong>Professional Technician.</strong> With various creative projects, a big part, is managing the technical aspects. With this comes a knowlage of technical setups and executing these",
       active: ,# Add true to select section
     }
 
@@ -247,19 +247,19 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "Jonas/Trine"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
+    designation: "CEO, Smukfest"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-  - name: "Jesica Gomez"
+  - name: "Christina"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
+    designation: "CEO, SEEK, Aarhus Festuge"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-  - name: "Jesica Gomez"
+  - name: "Kristian"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
+    designation: "CEO, Kaosteater, Fritter Fadøl og Forestilling"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 #-------------------------------
