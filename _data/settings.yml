@@ -149,22 +149,22 @@ education:
 services-title: Services
 services:
   - {
-      name: UI Design,
+      name: Process Design,
       icon: ti-palette,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: ,# Add true to select section
     }
   - {
-      name: UX Design,
+      name: Project Design,
       icon: ti-vector,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
+      name: Technical Design,
       icon: ti-panel,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      active: true, # Add true to select section
     }
 
 #-------------------------------
