@@ -42,15 +42,15 @@
         y = event.clientY - parallaxBox.offsetTop;
 
       // Adjust the speed value here
-      mouseParallax(heroLogo, x, y, 5); // Increase or decrease the number to change the effect
+      mouseParallax(heroLogo, x, y, 5, parallaxBox); // Increase or decrease the number to change the effect
     };
   };
 
-  function mouseParallax(element, mouseX, mouseY, speed) {
-    var parentWidth = element.parentElement.offsetWidth;
-    var parentHeight = element.parentElement.offsetHeight;
-    var x = (mouseX - parentWidth / 2) / parentWidth * speed;
-    var y = (mouseY - parentHeight / 2) / parentHeight * speed;
+  function mouseParallax(element, mouseX, mouseY, speed, box) {
+    var parentWidth = box.offsetWidth;
+    var parentHeight = box.offsetHeight;
+    var x = ((mouseX - parentWidth / 2) / parentWidth) * speed;
+    var y = ((mouseY - parentHeight / 2) / parentHeight) * speed;
     element.style.transform = `translate(${x}px, ${y}px)`;
   }
   /* ########################################### /hero parallax ############################################## */
