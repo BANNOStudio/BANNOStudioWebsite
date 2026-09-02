@@ -29,14 +29,10 @@
   }
 
   .hero-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+  position: static;
+  justify-self: center;
+  z-index: 2;
+  margin: 0;
 
     img {
       width: auto;
