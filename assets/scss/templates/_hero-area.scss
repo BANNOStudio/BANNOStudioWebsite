@@ -40,11 +40,11 @@
 
     img {
       width: auto;
-      max-height: 180px;
+      max-height: 200px;
       height: auto;
 
       @include tablet {
-        max-height: 100px;
+        max-height: 150px;
       }
     }
   }
