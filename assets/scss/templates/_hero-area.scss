@@ -20,7 +20,12 @@
   }
 
   .list-unstyled {
-    justify-self: start;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
   }
 
   .hero-logo {
