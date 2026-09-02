@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2024 - Present, BANNO Studio
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Portfolio, link: "/portfolio" }
+#  - { name: Portfolio, link: "/portfolio" }
   - { name: Projects, link: "/projects" }
   - { name: Contact, link: "/contact" }
 
