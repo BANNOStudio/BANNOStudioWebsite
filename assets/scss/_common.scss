@@ -75,6 +75,33 @@ a:hover {
   }
 }
 
+/* shared banner height: home hero + inner page titles */
+.hero-area,
+.page-title,
+.page-title-alt {
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 24px;
+
+  @include tablet {
+    min-height: 200px;
+    padding-top: 90px;
+    padding-bottom: 16px;
+  }
+
+  @include mobile {
+    min-height: 160px;
+  }
+}
+
+.page-title h1,
+.page-title-alt h1 {
+  margin-bottom: 0;
+}
+
 .bg-cover {
   background-size: cover;
   background-position: center center;

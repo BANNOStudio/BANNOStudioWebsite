@@ -1,5 +1,8 @@
-.page-title-alt{
-  padding: 53px 0 5px;
+.page-title-alt {
+  .container {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .border-thick{
@@ -11,14 +14,4 @@
   @include desktop {
     margin-top: 0;
   }
-}
-
-.page-title-alt{
-  .container{
-    position: relative;
-    z-index: 1;
-  }
-  // .bg-shape-1, .bg-shape-2, .bg-shape-3, .bg-shape-4, .bg-shape-5, .bg-shape-6 {
-  //   position: absolute;
-  // }
 }

@@ -1,9 +1,7 @@
 .hero-area {
-  padding: 53px 0 5px;
   position: relative;
 
   @include tablet {
-    padding: 100px 0 5px;
     overflow: hidden;
   }
 
@@ -13,6 +11,8 @@
   }
 
   .container {
+    width: 100%;
+    min-height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +31,16 @@
     display: flex;
     justify-content: center;
     margin: 0;
+
+    img {
+      width: auto;
+      max-height: 140px;
+      height: auto;
+
+      @include tablet {
+        max-height: 80px;
+      }
+    }
   }
 
   .future-content {
