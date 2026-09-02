@@ -20,37 +20,25 @@
   }
 
   .list-unstyled {
-    position: relative;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
+    justify-self: start;
   }
 
   .hero-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    position: static; // not absolute
+    justify-self: center;
     z-index: 2;
     margin: 0;
-    display: flex;
-    justify-content: center;
 
     img {
       width: auto;
       max-height: 140px;
       height: auto;
-
-      @include tablet {
-        max-height: 80px;
-      }
     }
   }
 
   .future-content {
-    flex-grow: 1;
+    justify-self: end;
+    flex-grow: unset;
   }
 }
 
