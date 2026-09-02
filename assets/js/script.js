@@ -42,12 +42,12 @@
         y = event.clientY - parallaxBox.offsetTop;
 
       // Adjust the speed value here
-      mouseParallax(heroLogo, x, y, 10, parallaxBox); // Increase or decrease the number to change the effect
+      mouseParallax(heroLogo, x, y, 5, parallaxBox); // Increase or decrease the number to change the effect
     };
-  };
 
-  parallaxBox.onmouseleave = function () {
-    heroLogo.style.transform = "none";
+    parallaxBox.onmouseleave = function () {
+      heroLogo.style.transform = "none";
+    };
   };
 
   function mouseParallax(element, mouseX, mouseY, speed, box) {
