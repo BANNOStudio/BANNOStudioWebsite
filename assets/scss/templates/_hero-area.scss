@@ -1,7 +1,9 @@
 .hero-area {
+  padding: 100px 0 5px;
   position: relative;
 
   @include tablet {
+    padding: 100px 0 5px;
     overflow: hidden;
   }
 
@@ -11,17 +13,13 @@
   }
 
   .container {
-    width: 100%;
-    min-height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0;
+    padding: 20px 0;
   }
 
   .list-unstyled {
-    position: relative;
-    z-index: 3;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -29,24 +27,10 @@
   }
 
   .hero-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    margin: 0;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
-
-    img {
-      width: auto;
-      max-height: 140px;
-      height: auto;
-
-      @include tablet {
-        max-height: 80px;
-      }
-    }
+    margin: 0;
   }
 
   .future-content {
