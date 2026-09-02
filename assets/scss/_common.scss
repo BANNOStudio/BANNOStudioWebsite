@@ -79,12 +79,12 @@ a:hover {
 .hero-area,
 .page-title,
 .page-title-alt {
-  min-height: 250px;
+  min-height: 280px;
   display: flex;    
   align-items: center;
   box-sizing: border-box;
-  padding-top: 53px;
-  padding-bottom: 5px;
+  padding-top: 80px;
+  padding-bottom: 24px;
 
   @include tablet {
     min-height: 200px;
